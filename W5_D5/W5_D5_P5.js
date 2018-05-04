@@ -91,7 +91,7 @@ function setup() {
        if (touch== true){
         touch=false;
         balls.push(new Ball());
-        this.color= (random(0,255),random(0,255),random(0,255),random(0,255));
+        balls.color= (random(0,255),random(0,255),random(0,255),random(0,255));
         }else{
 
         }
